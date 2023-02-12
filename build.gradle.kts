@@ -25,7 +25,7 @@ kotlin {
 
     jvm {
         compilations.all {
-            kotlinOptions.jvmTarget = "10"
+            kotlinOptions.jvmTarget = "8"
         }
         withJava()
         testRuns["test"].executionTask.configure {
